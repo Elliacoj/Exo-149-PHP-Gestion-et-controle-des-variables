@@ -80,7 +80,7 @@ $float = 4.2;
 $string = "Bonjour à tous";
 
 function test($item) {
-    if(boolval($item)) {
+    if(is_bool($item)) {
         echo "C'est un boolean";
     }
 
